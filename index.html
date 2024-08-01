@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../L20/style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../L20/assets/boba.webp" alt="Boba">
+        <h1>Bubba's Boba</h1>
+        <ul id="nav">
+            <li id="navoption"><a href="#menu">Menu</a></li>
+            <li id="navoption"><a href="#directions">Directions</a></li>
+            <li id="navoption"><a href="#contact">Contact Us</a></li>
+            <li id="navoption"><a href="#hours">Hours</a></li>
+            <li id="navoption"><a href="#follow">Follow Us</a></li>
+            <li id="navoption"><a href="#review">Leave a Review</a></li>
+        </ul>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to Bubba's Boba!</h2>
+        <p>Home of the best boba in the Bay Area!</p>
+    </div>
+
+    <div class="content">
+        <h2 id="menu">Menu</h2>
+        <ul>
+            <li>Strawberry Boba</li>
+            <li>Blueberry Boba</li>
+            <li>Green Apple Boba</li>
+            <li>Watermelon Boba</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2 id="directions">Directions</h2>
+        <p>Walk down the street and uhhhhh turn left and uh... Make a right. Enter the green building, then exit the green building. Open the manhole cover then climb down. Walk 2.38 miles East. Climb up the ladder on the North side. Walk 389 feet 17° North. Hop over the fence. Enter the beige Toyota Prius and hot wire the ignition with the available tools from the passenger side. Drive into the underground parking garage, DO NOT MAKE EYE CONTACT WITH THE MAN. Drive past the man. Exit the vehicle at the degsinated spot. Give this code to the man in the green vest: 397502. Follow the guards. Enter the double doors. Welcome to the shop!</p>
+    </div>
+    
+    <div class="content">
+        <h2 id="contact">Contact Us</h2>
+        <p>Phone: 123-456-7890</p>
+        <p>Email:
+            <a href="mailto:bubba.boba@example.com"> bubba.boba@example.com</a>
+        </p>
+        <p>Address: 123 Boba Ave, Suite 101, San Francisco, CA 94101</p>
+    </div>
+    
+    <div class="content">
+        <h2 id="hours">Hours</h2>
+        <p>Monday - Friday: 9:00am - 9:00pm</p>
+        <p>Saturday - Sunday: 10:00am - 10:00pm</p>
+    </div>
+
+    <div class="content">
+        <h2 id="follow">Follow Us</h2>
+        <p>Facebook: <a href="https://www.facebook.com/bubba.boba">Bubba's Boba</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/bubba.boba">bubba.boba</a></p>
+        <p>Twitter: <a href="https://www.twitter.com/bubba.boba">bubba.boba</a></p>
+    </div>
+    
+
+    <div class="content">
+        <h2 id="review">Leave a Review</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5 stars</option>
+                <option value="4">4 stars</option>
+                <option value="3">3 stars</option>
+                <option value="2">2 stars</option>
+                <option value="1">1 star</option>
+            </select>
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" required></textarea>
+            <button onclick="alert('Thanks')">Submit</button>            
+        </form>
+    </div>
+
+    <footer>
+        <p>made for cs10</p>
+    </footer>
+    
+</body>
+</html>
